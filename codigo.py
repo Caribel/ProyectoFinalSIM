@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #importamos las librerias
 import httplib, urllib
 import time
@@ -86,7 +88,6 @@ def doit():
 if __name__ == "__main__":
 	time.sleep(1)
         print ("Iniciando Sistema de Monitoreo de Humedad del Suelo")
-
 	time.sleep(2)
 
 	while True:
